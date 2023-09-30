@@ -43,7 +43,11 @@ class _MyHomePageState extends State<MyHomePage> {
   late XFile? pickedFile;
   final String storageAccount = 'demopurpose123';
   final String connectionString =
-      'DefaultEndpointsProtocol=https;AccountName=demopurpose123;AccountKey=PeDqYutWvBeosCdtSH/4FmseXjHI1RPL1un0sPyHGP4pcI8Tpnq8CQl3dNod0cPL5JYgJmhJaVBo+AStpc9h0w==;EndpointSuffix=core.windows.net';
+      'DefaultEndpointsProtocol=https;
+    AccountName=YOUR ACCOUNT NAME;
+    AccountKey=YOUR ACCOUNT KEY;
+    EndpointSuffix=core.windows.net';
+  
   final String containerName = 'demopurposecontainer';
   bool isLoading = false;
   Future<void> _takePicture(BuildContext context, ImageSource source) async {
